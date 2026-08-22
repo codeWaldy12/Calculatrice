@@ -1,0 +1,30 @@
+.btn {
+    border: none;
+    outline: none;
+}
+
+.standard__clavier {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+    padding: 12px;
+    width: 50%;
+    height: 50%;
+    background-color: var(--surface-bouton-chiffre);
+    border: 1px solid var(--action-bordure);
+    border-radius: 0 0 12px 12px;
+    aspect-ratio: 1 / 1;
+}
+
+.standard__clavier-zero {
+    grid-column: span 2;
+}
+
+.operateur {
+    background-color: var(--action-operateur);
+}
+
+.egal {
+    background-color: var(--action-validation);
+}

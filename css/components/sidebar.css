@@ -1,0 +1,20 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    padding: 1rem;
+    border: 1px solid var(--couleur-bouton-bordure);
+    color: var(--content-principal);
+    background-color: var(--surface-sidebar);
+}
+
+.sidebar__logo {
+    display: block;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}

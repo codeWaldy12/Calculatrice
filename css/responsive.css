@@ -1,0 +1,50 @@
+@media (max-width: 480px) {
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        float: none;
+    }
+
+    .sidebar__logo {
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .navbar a i {
+        font-size: 1.25rem;
+        margin-bottom: 2px;
+    }
+
+    .navbar__label {
+        display: none;
+    }
+
+    .standard__cadre {
+        width: 90%;
+    }
+
+    .standard__ecran {
+        width: 100%;
+        height: 90px;
+        padding-top: 22px;
+    }
+
+    .standard__clavier {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}

@@ -1,0 +1,13 @@
+:root {
+
+    --surface-page: #F4F1EA;           
+    --surface-sidebar: #DCE6F0;        
+    --surface-ecran: #EAF0F6;          
+    --surface-bouton-chiffre: #FFFFFF; 
+
+    --action-operateur: #FFB4A2;      
+    --action-validation: #009fb7;      
+    --action-bordure: #D8D8E0;         
+
+    --content-principal: #2E2E3A;      
+}

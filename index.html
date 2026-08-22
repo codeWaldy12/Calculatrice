@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <script src="https://kit.fontawesome.com/f086ab3604.js" crossorigin="anonymous"></script>
+    <title>Calculatrice</title>
+</head>
+<body>
+
+    <aside class="sidebar">
+
+        <h1 class="sidebar__logo">Super Calculatrice</h1>
+
+        <nav class="navbar">
+            <a href="index.html" title="Standard" aria-label="Calculatrice standard">
+                <i class="fa-solid fa-gear" aria-hidden="true"></i>
+                <span class="navbar__label">Standard</span>
+            </a>
+            <a href="pages/scientifique.html" title="Scientifique" aria-label="Calculatrice scientifique">
+                <i class="fa-solid fa-flask" aria-hidden="true"></i>
+                <span class="navbar__label">Scientifique</span>
+            </a>
+            <a href="pages/historique.html" title="Historique" aria-label="Historique des calculs">
+                <i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i>
+                <span class="navbar__label">Historique</span>
+            </a>
+        </nav>
+
+    </aside>
+
+    <main class="standard">
+
+        <div class="standard__cadre">
+            <output class="standard__ecran"  
+                aria-label="Résultat du calcul"
+                aria-live="polite" 
+            />0</output>
+        </div>
+        
+        <div class="standard__clavier">
+
+            <button class="btn operateur" value="ac">AC</button>
+
+            <button class="btn operateur" value="+/-">+/-</button>
+
+            <button class="btn operateur" value="%">%</button>
+
+            <button class="btn operateur" value="/">/</button>
+
+            <button class="btn" value="7">7</button>
+
+            <button class="btn" value="8">8</button>
+
+            <button class="btn" value="9">9</button>
+
+            <button class="btn operateur" value="*">x</button>
+
+            <button class="btn" value="4">4</button>
+
+            <button class="btn" value="5">5</button>
+
+            <button class="btn" value="6">6</button>
+
+            <button class="btn operateur" value="-">-</button>
+
+            <button class="btn" value="1">1</button>
+
+            <button class="btn" value="2">2</button>
+
+            <button class="btn" value="3">3</button>
+
+            <button class="btn operateur" value="+">+</button>
+
+            <button class="btn standard__clavier-zero" value="0">0</button>
+
+            <button class="btn" value=".">.</button>
+
+            <button class="btn egal" value="=">=</button>
+
+        </div>
+    
+    </main>
+</body>
+</html>
