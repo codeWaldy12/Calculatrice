@@ -48,3 +48,26 @@
     }
 
 }
+
+@media (min-width: 768px) {
+    .standard__cadre {
+        width: 90%;
+    }
+
+    .standard__ecran {
+        width: 100%;
+        height: 90px;
+        padding-top: 22px;
+    }
+
+    .standard__clavier {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .btn {
+        font-size: 1.5rem;
+    }
+}
