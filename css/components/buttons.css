@@ -21,10 +21,10 @@
     grid-column: span 2;
 }
 
-.operateur {
+.operateur__arithmetique, .operateur__special {
     background-color: var(--action-operateur);
 }
 
-.egal {
+.operateur__egal {
     background-color: var(--action-validation);
 }
